@@ -1,0 +1,15 @@
+version: "2"
+fields:
+  - id: session-id
+    target:
+      type: environment
+      name: SESSION_ID
+      service: kzg-ceremony
+    title: Session id
+    description: >-
+      **Leave this value empty during the installation of the package.**
+
+
+      You will get the instructions on the welcome page once you have installed the package.
+
+    required: false

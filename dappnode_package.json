@@ -1,0 +1,24 @@
+{
+  "name": "kzg-ceremony.dnp.dappnode.eth",
+  "version": "0.1.0",
+  "shortDescription": "The KZG Ceremony",
+  "architectures": ["linux/amd64"],
+  "description": "package based on: [go-kzg-ceremony-client](https://github.com/jsign/go-kzg-ceremony-client) \n\nThe KZG Ceremony is a coordinated public ritual which will provide a cryptographic foundation for Ethereum scaling initiatives.\n\nFrom the specs repo:\n\nThe ceremony takes place between participants and the sequencer.\nParticipants are the entities that contribute their secret randomness to the final output 𝜏 s.\n\nThe role of the sequencer is to act as the common point of interaction\nfor all participants as well as verifying participants' contribution as the ceremony progresses.\n\nThe ceremony is designed to have the following characteristics:\n\n\n\n\t* wide ecosystem participation\n\n\t* browser accessible\n\n\t* a meaningful narrative in a simple interface\n\n\t* easy to audit transcript\n\n\t* The best place to follow along is the KZG Ceremony channel in the Ethereum R&D Discord or the bridged telegram channel -\n\nM one of the contributors to be added to either.",
+  "type": "service",
+  "author": "edu",
+  "categories": [
+    "Blockchain",
+    "ETH2.0"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dappnode/DAppNodePackage-kzg-ceremony.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dappnode/DAppNodePackage-kzg-ceremony/issues"
+  },
+  "links": {
+    "homepage": "https://ceremony.ethereum.org/"
+  },
+  "license": "GPL-3.0"
+}

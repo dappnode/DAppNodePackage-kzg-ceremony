@@ -1,0 +1,9 @@
+version: "3.5"
+services:
+  kzg-ceremony:
+    build: .
+    image: "kzg-ceremony.kzg-ceremony.dnp.dappnode.eth:0.1.0"
+    restart: "no"
+    environment:
+      - SESSION_ID
+      - EXTRA_OPTS
