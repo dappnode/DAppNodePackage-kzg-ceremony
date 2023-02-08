@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 REQUEST_LINK=https://seq.ceremony.ethereum.org/auth/request_link
 
